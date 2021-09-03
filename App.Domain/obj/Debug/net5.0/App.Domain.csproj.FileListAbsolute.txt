@@ -1,0 +1,12 @@
+C:\Abase\Fontes\Curso\App.Api\App.Domain\bin\Debug\net5.0\App.Domain.deps.json
+C:\Abase\Fontes\Curso\App.Api\App.Domain\bin\Debug\net5.0\App.Domain.dll
+C:\Abase\Fontes\Curso\App.Api\App.Domain\bin\Debug\net5.0\ref\App.Domain.dll
+C:\Abase\Fontes\Curso\App.Api\App.Domain\bin\Debug\net5.0\App.Domain.pdb
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\App.Domain.AssemblyInfoInputs.cache
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\App.Domain.AssemblyInfo.cs
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\App.Domain.csproj.CoreCompileInputs.cache
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\App.Domain.dll
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\ref\App.Domain.dll
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\App.Domain.pdb
+C:\Abase\Fontes\Curso\App.Api\App.Domain\obj\Debug\net5.0\App.Domain.csprojAssemblyReference.cache

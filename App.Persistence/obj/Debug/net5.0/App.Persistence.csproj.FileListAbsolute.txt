@@ -1,0 +1,15 @@
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\bin\Debug\net5.0\App.Persistence.deps.json
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\bin\Debug\net5.0\App.Persistence.dll
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\bin\Debug\net5.0\ref\App.Persistence.dll
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\bin\Debug\net5.0\App.Persistence.pdb
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.AssemblyInfoInputs.cache
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.AssemblyInfo.cs
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.csproj.CoreCompileInputs.cache
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.dll
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\ref\App.Persistence.dll
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.pdb
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\bin\Debug\net5.0\App.Domain.dll
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\bin\Debug\net5.0\App.Domain.pdb
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.csprojAssemblyReference.cache
+C:\Abase\Fontes\Curso\App.Api\App.Persistence\obj\Debug\net5.0\App.Persistence.csproj.CopyComplete
