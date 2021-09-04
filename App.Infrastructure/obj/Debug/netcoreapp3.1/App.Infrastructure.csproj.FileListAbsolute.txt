@@ -1,9 +1,0 @@
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\bin\Debug\netcoreapp3.1\App.Infrastructure.deps.json
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\bin\Debug\netcoreapp3.1\App.Infrastructure.dll
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\bin\Debug\netcoreapp3.1\App.Infrastructure.pdb
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\obj\Debug\netcoreapp3.1\App.Infrastructure.csprojAssemblyReference.cache
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\obj\Debug\netcoreapp3.1\App.Infrastructure.AssemblyInfoInputs.cache
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\obj\Debug\netcoreapp3.1\App.Infrastructure.AssemblyInfo.cs
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\obj\Debug\netcoreapp3.1\App.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\obj\Debug\netcoreapp3.1\App.Infrastructure.dll
-C:\Abase\Fontes\Curso\App.Api\App.Infrastructure\obj\Debug\netcoreapp3.1\App.Infrastructure.pdb
