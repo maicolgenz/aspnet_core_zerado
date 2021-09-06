@@ -10,5 +10,6 @@ namespace App.Domain.Interfaces.Application
     public interface IPessoaService
     {
         Pessoa BuscaPorId();
+        List<Pessoa> listaPessoas();
     }
 }
