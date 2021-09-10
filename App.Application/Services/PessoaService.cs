@@ -4,8 +4,6 @@ using App.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.Application.Services
 {
@@ -16,14 +14,25 @@ namespace App.Application.Services
         {
             _repository = repository;
         }
-        public Pessoa BuscaPorId()
+        public Pessoa BuscaPorId(Guid id)
         {
-            throw new NotImplementedException();
+            var obj = _repository.Query(x => x.Id == id).FirstOrDefault();
+            return obj;
         }
 
         public List<Pessoa> listaPessoas()
         {
             return _repository.Query(x => 1 == 1).ToList();
+        }
+
+        public void Salvar(Pessoa obj)
+        {
+            if (String.IsNullOrEmpty(obj.Nome))
+            {
+                throw new Exception("Informe o nome");
+            }
+            _repository.Save(obj);
+            _repository.SaveChanges();
         }
     }
 }
