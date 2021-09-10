@@ -16,6 +16,10 @@ namespace App.Application.Services
         }
         public Pessoa BuscaPorId(Guid id)
         {
+            if (id == Guid.Empty)
+            {
+                throw new Exception("Informe o id");
+            }
             var obj = _repository.Query(x => x.Id == id).FirstOrDefault();
             return obj;
         }
