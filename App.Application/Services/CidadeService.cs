@@ -34,9 +34,18 @@ namespace App.Application.Services
             return obj;
         }
 
-        public List<Cidade> listaCidades()
+        public List<Cidade> listaCidades(string busca)
         {
-            return _repository.Query(x => 1 == 1).ToList();
+            busca = (busca ?? "").ToUpper();
+            return _repository.Query(x =>
+
+            (
+            x.Nome.ToUpper().Contains(busca) ||
+            x.Cep.ToUpper().Contains(busca) ||
+            x.Uf.ToUpper().Contains(busca)
+            )
+
+            ).ToList();
         }
 
         public void Remover(Guid id)

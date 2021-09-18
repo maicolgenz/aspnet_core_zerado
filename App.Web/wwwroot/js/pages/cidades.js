@@ -1,9 +1,16 @@
 ﻿$(document).ready(function () {
+    $('#busca').keypress(function (e) {
+        if (e.which === 13) {
+            load();
+        }
+    });
     load();
 });
 
 function load() {
-    CidadeListaCidades().then(function (data) {
+    let cidade = $('[name="busca"]').val();
+    CidadeListaCidades(cidade).then(function (data) {
+        $('#table tbody').html('');
         data.forEach(obj => {
             $('#table tbody').append('' +
                 '<tr id="obj-' + obj.id + '">' +

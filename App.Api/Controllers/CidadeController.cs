@@ -20,11 +20,11 @@ namespace App.Api.Controllers
 
         [HttpGet("ListaCidades")]
         [AllowAnonymous]
-        public JsonResult ListaCidades()
+        public JsonResult ListaCidades(string busca)
         {
             try
             {
-                var obj = _service.listaCidades();
+                var obj = _service.listaCidades(busca);
                 return Json(RetornoApi.Sucesso(obj));
             }
             catch (Exception ex)
