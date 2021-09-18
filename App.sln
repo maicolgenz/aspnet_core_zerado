@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Api", "App.Api\App.Api.csproj", "{C5B0C791-1DF2-4D2E-9A57-C57FB3F09ABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Api", "App.Api\App.Api.csproj", "{C5B0C791-1DF2-4D2E-9A57-C57FB3F09ABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Application", "App.Application\App.Application.csproj", "{8637F0FD-1829-45D3-8900-24CF45DA5F34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Application", "App.Application\App.Application.csproj", "{8637F0FD-1829-45D3-8900-24CF45DA5F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Common", "App.Common\App.Common.csproj", "{43128094-0707-4FD5-9397-1C981DEDCEA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Common", "App.Common\App.Common.csproj", "{43128094-0707-4FD5-9397-1C981DEDCEA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain", "App.Domain\App.Domain.csproj", "{06312EB5-C07F-4E05-B65C-17832CA91691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Domain", "App.Domain\App.Domain.csproj", "{06312EB5-C07F-4E05-B65C-17832CA91691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Infrastructure", "App.Infrastructure\App.Infrastructure.csproj", "{93915731-C6A2-45BC-A7DF-92B19E733645}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Infrastructure", "App.Infrastructure\App.Infrastructure.csproj", "{93915731-C6A2-45BC-A7DF-92B19E733645}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Persistence", "App.Persistence\App.Persistence.csproj", "{185B2073-AAC1-475B-8283-F09D2C3F7249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Persistence", "App.Persistence\App.Persistence.csproj", "{185B2073-AAC1-475B-8283-F09D2C3F7249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web", "App.Web\App.Web.csproj", "{0592B791-E9C5-4B90-B0CA-4CB94D299D38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web", "App.Web\App.Web.csproj", "{6C2E578E-7A34-4F33-9C42-711F6BCD098B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{185B2073-AAC1-475B-8283-F09D2C3F7249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{185B2073-AAC1-475B-8283-F09D2C3F7249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{185B2073-AAC1-475B-8283-F09D2C3F7249}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0592B791-E9C5-4B90-B0CA-4CB94D299D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0592B791-E9C5-4B90-B0CA-4CB94D299D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0592B791-E9C5-4B90-B0CA-4CB94D299D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0592B791-E9C5-4B90-B0CA-4CB94D299D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2E578E-7A34-4F33-9C42-711F6BCD098B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2E578E-7A34-4F33-9C42-711F6BCD098B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2E578E-7A34-4F33-9C42-711F6BCD098B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2E578E-7A34-4F33-9C42-711F6BCD098B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

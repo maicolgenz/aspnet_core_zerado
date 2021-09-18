@@ -20,7 +20,7 @@ namespace App.Application.Services
             {
                 throw new Exception("Informe o CEP!");
             }
-            var obj = _repository.Query(x => x.CEP == cep).FirstOrDefault();
+            var obj = _repository.Query(x => x.Cep == cep).FirstOrDefault();
             return obj;
         }
 
