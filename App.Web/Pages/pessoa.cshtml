@@ -1,0 +1,48 @@
+﻿@page "/pessoa"
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <div class="form-group mb-12">
+            <label>Filtro de Busca</label>
+            <input type="text" name="nome" id="nome" class="form-control">
+        </div>
+    </div>
+    <div class="col-md-2 col-sm-12">
+        <div class="form-group mb-12">
+            <label>Peso Maior Que</label>
+            <input type="number" name="pesoMaiorQue" class="form-control">
+        </div>
+    </div>
+    <div class="col-md-2 col-sm-12">
+        <div class="form-group mb-12">
+            <label>Peso Menor Que</label>
+            <input type="number" name="pesoMenorQue" class="form-control">
+        </div>
+    </div>
+    <div class="col-md-2 mt-4">
+        <button class="btn btn-info" onclick="window.location.href = '/pessoa/formulario'" style="width:100%">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            Adicionar
+        </button>
+    </div>
+</div>
+<h4>Lista de Pessoas</h4>
+
+<div class="table-responsive" id="table">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Peso</th>
+                <th>Data Nasc</th>
+                <th>Cidade</th>
+                <th>Ativo</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/pages/pessoa.js"></script>
+}

@@ -40,7 +40,9 @@ namespace App.Application.Services
                 Cidade = new Cidade
                 {
                     Nome = p.Cidade.Nome
-                }
+                },
+                Ativo = p.Ativo,
+                DataNascimento = p.DataNascimento
             }).OrderByDescending(x => x.Nome).ToList();
         }
         public void Remover(Guid id)
