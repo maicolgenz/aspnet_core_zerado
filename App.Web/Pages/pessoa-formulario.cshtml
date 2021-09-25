@@ -1,4 +1,4 @@
-﻿@page "/pessoa/formulario"
+﻿@page "/pessoa/formulario/{id?}"
 <h4>Formulário de Pessoas</h4>
 <div class="card">
     <div class="card-body">
@@ -42,10 +42,15 @@
                     <input type="text" name="telefone" data-mascara="phone" class="form-control">
                 </div>
             </div>
+            <div class="form-check col-md-12">
+                <input type="checkbox" class="form-check-input" id="ativo" name="ativo">
+                <label class="form-check-label" for="exampleCheck1">Ativo?</label>
+            </div>
             <div class="col-md-12 text-right">
                 <button class="btn btn-danger" onclick="window.location.href='/pessoa'">Cancelar</button>
                 <button class="btn btn-success" onclick="salvar();">Salvar</button>
             </div>
+
         </div>
     </div>
 </div>
