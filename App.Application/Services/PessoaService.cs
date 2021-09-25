@@ -59,6 +59,10 @@ namespace App.Application.Services
             {
                 throw new Exception("Informe o nome");
             }
+            if (!obj.cpf.CpfCnpjValido())
+            {
+                throw new Exception("Cpf inválido");
+            }
             if(obj.Id == Guid.Empty)/*Se for alteração*/
             {
                 bool existe = _repository.Query(x => x.cpf == obj.cpf).Any();

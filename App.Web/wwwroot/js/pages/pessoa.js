@@ -30,6 +30,7 @@ function load() {
                 '<td>' + btnEditar + btnRemover + '</td>' +
                 '</tr>');
         });
+        $('#table-pessoas').DataTable();
     });
 }
 
